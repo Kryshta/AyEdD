@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1707932705 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\timeout\main.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+

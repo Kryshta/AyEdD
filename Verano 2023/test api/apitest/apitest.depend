@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1708116619 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\test api\apitest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<curl/curl.h>
+

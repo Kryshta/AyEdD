@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1708045605 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\recursividad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"recursividad_header.h"
+
+1708045676 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\recursividad\funciones_recursividad.c
+	"recursividad_header.h"
+
+1708044855 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\recursividad\recursividad_header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

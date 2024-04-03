@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1707161428 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda vector\main.c
+	"header.h"
+	"header_ejercicio.h"
+
+1706729715 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda vector\primitivas.c
+	"header.h"
+
+1706729807 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda vector\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1707174867 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda vector\funciones_ejercicios.c
+	"header.h"
+	"header_ejercicio.h"
+
+1707161050 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda vector\header_ejercicio.h
+

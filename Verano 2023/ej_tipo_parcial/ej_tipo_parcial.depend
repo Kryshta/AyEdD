@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1707071889 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej_tipo_parcial\funciones.c
+	"header.h"
+
+1707072264 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej_tipo_parcial\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDA_Cola/header.h"
+
+1706907937 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej_tipo_parcial\main.c
+	"header.h"
+	"..\TDA_Cola\header.h"
+
+1707072075 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_cola\cola_dinamica.c
+	"header.h"
+	"../TDA_Cola/header.h"
+
+1707072307 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_cola\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

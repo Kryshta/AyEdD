@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1706900646 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_cola\cola_dinamica.c
+	"header.h"
+
+1706834805 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_cola\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1706900912 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_cola\main.c
+	"header.h"
+

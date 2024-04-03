@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1707262766 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_lista_simplemente_enlazada\main.c
+	"header.h"
+	"lista.h"
+
+1707262766 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_lista_simplemente_enlazada\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1707262766 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_lista_simplemente_enlazada\funciones.c
+	"header.h"
+	"lista.h"
+
+1707266071 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\tda_lista_simplemente_enlazada\lista.h
+

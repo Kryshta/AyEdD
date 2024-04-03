@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1711673258 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\pila_estatica\pila_estatica.c
+	"pila_estatica.h"
+
+1711572717 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\pila_estatica\pila_estatica.h
+	<string.h>
+
+1711745285 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej2.7\funciones2.7.c
+	"ej2.7.h"
+
+1711745218 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej2.7\ej2.7.h
+	<stdio.h>
+	<stdlib.h>
+	"../pila_estatica/pila_estatica.h"
+
+1711745278 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej2.7\main.c
+	"ej2.7.h"
+

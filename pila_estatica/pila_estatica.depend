@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1711572717 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\test api\pila_estatica\pila_estatica.c
+	"pila_estatica.h"
+
+1711572717 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\test api\pila_estatica\pila_estatica.h
+	<string.h>
+
+1711572735 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\test api\pila_estatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila_estatica.h"
+
+1711569677 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\test api\pila_estatica\pila_estatica.c
+	"pila_estatica.h"
+
