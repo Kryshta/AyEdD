@@ -30,6 +30,31 @@ int pilaLlena(const t_pila* pila, unsigned tamDato){
 int apilar(t_pila* pila, void* dato, unsigned cantBytes){
   t_nodo* nue;
 
+  nue = malloc(sizeof(t_nodo));
+  if(!nue){
+    return 0;
+  }
 
+  nue->dato = malloc(cantBytes);
 
+  if(!(nue->dato)){
+    return 0;
+  }
+
+  memcpy(nue->dato, dato, cantBytes);
+  memcpy( &(nue->cantBytes), &cantBytes, sizeof(cantBytes));
+
+  nue->siguiente = *pila;
+  *pila = nue;
+
+  return 1;
+
+}
+
+int desapilar(t_pila* pila, void* dato, unsigned cantBytes){
+  if(*pila == NULL){
+    return 0;
+  }
+  //TO BE CONTINUED
+  return 1;
 }
