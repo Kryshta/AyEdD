@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1712152167 source:c:\users\laboratorios\desktop\ayedd\pila_dinamica\pila_dinamica.c
+	"pila_dinamica.h"
+
+1712153716 c:\users\laboratorios\desktop\ayedd\pila_dinamica\pila_dinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1712152334 source:c:\users\laboratorios\desktop\ayedd\pila_dinamica\main.c
+	"pila_dinamica.h"
+
