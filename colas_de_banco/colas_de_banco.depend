@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1712956406 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\colas_de_banco\main.c
+	"cola_de_banco.h"
+
+1712954047 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\colas_de_banco\cola_de_banco.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../cola_estatica/cola_estatica.h"
+
+1712956188 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\colas_de_banco\colas_de_banco.c
+	"cola_de_banco.h"
+
+1712948842 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\cola_estatica.c
+	"cola_estatica.h"
+
+1712948505 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\cola_estatica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1712948842 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\cola_estatica.c
+	"cola_estatica.h"
+

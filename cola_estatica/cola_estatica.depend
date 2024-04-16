@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1712948749 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\main.c
+	"cola_estatica.h"
+
+1712948505 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\cola_estatica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1712948479 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_estatica\cola_estatica.c
+	"cola_estatica.h"
+

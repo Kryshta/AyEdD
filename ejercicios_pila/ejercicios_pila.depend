@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1712345867 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\pila_dinamica\pila_dinamica.c
+	"pila_dinamica.h"
+
+1712346511 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\pila_dinamica\pila_dinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1712346062 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ejercicios_pila\ejercicios_pila.c
+	"ejercicios_pila.h"
+	"../pila_dinamica/pila_dinamica.h"
+
+1712345978 e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ejercicios_pila\ejercicios_pila.h
+	<stdio.h>
+	<stdlib.h>
+
+1712347699 source:e:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ejercicios_pila\main.c
+	"ejercicios_pila.h"
+	"../pila_dinamica/pila_dinamica.h"
+

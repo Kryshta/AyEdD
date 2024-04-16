@@ -1,9 +1,11 @@
 #include "ej2.6.h"
 
-
-
 int generarArchivo(char* filename){
-    int intArray[] = {10,20,30,15,5,1};
+    //int intArray[] = {10,20,30,15,5,1};
+    //int intArray[] = {9,8,7,6,5,4,3,2};
+    //int intArray[] = {0,1,2,3,4,5,6,7};
+    int intArray[] = {1,1,2,2,3,3,4,4,1,1};
+
     int i;
 
     FILE* pArchivo;
@@ -12,7 +14,7 @@ int generarArchivo(char* filename){
         printf("%s", "Error al escribir el archivo\n");
         return FAIL;
     }
-    for(i=0;i<TOPE;i++){
+    for(i=0;i<sizeof(intArray)/sizeof(intArray[i]);i++){
         fwrite(&intArray[i],sizeof(int),1,pArchivo);
     }
     fclose(pArchivo);

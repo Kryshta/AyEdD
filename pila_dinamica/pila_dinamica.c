@@ -24,7 +24,7 @@ int pilaLlena(const t_pila* pila, unsigned tamDato){
   free(((t_nodo*) nodo )->dato);
   free(nodo);
 
-  return OK;
+  return PILA_NO_LLENA;
 }
 
 int apilar(t_pila* pila, void* dato, unsigned cantBytes){
@@ -52,9 +52,44 @@ int apilar(t_pila* pila, void* dato, unsigned cantBytes){
 }
 
 int desapilar(t_pila* pila, void* dato, unsigned cantBytes){
+  t_nodo* elim;
+
   if(*pila == NULL){
-    return 0;
+    return PILA_VACIA;
   }
-  //TO BE CONTINUED
-  return 1;
+
+  elim = *pila;
+  *pila = elim->siguiente;
+  memcpy(dato, elim->dato, MINIMO(cantBytes,elim->cantBytes));
+  free(elim->dato);
+  free(elim);
+
+  return OK;
+}
+
+int vaciarPila(t_pila* pila){
+      t_nodo* elim;
+
+  if(*pila == NULL){
+    return PILA_VACIA;
+  }
+
+  while(*pila != NULL){
+    elim = *pila;
+    *pila = elim->siguiente;
+    free(elim->dato);
+    free(elim);
+  }
+  return OK;
+}
+
+int verTope(t_pila* pila, void* dato, unsigned cantBytes){
+
+  if(*pila == NULL){
+    return PILA_VACIA;
+  }
+
+  memcpy(dato, (*pila)->dato, MINIMO(cantBytes, (*pila)->cantBytes));
+
+  return OK;
 }
