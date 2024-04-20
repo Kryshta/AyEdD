@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1713573344 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej3.5\ej3.5.c
+	"ej3.5.h"
+	"../cola_dinamica/cola_dinamica.h"
+
+1713563510 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej3.5\ej3.5.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713569201 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\ej3.5\main.c
+	"ej3.5.h"
+
+1713566337 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\cola_dinamica.c
+	"cola_dinamica.h"
+
+1713566337 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\cola_dinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
