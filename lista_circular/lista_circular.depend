@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1715180051 source:c:\users\laboratorios\desktop\ayedd\ayedd\lista_circular\main.c
+	"lista_circular.h"
+
+1715179652 c:\users\laboratorios\desktop\ayedd\ayedd\lista_circular\lista_circular.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715180051 source:c:\users\laboratorios\desktop\ayedd\ayedd\lista_circular\lista_circular.c
+	"lista_circular.h"
+
+1715547577 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_circular\lista_circular.c
+	"lista_circular.h"
+
+1715543839 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_circular\lista_circular.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715547068 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_circular\main.c
+	"lista_circular.h"
+

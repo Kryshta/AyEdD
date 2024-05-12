@@ -13,12 +13,17 @@ int main()
         listaIFinal(&lista1, arrEnteros+i, sizeof(int));
     }
 
-    puts("Lista desordenada");
     mostrarLista(&lista1, mostrarEntero);
-    //eliminarUltimosN(&lista1, 2);
-    ordenarListav2(&lista1, &cmpEnteros);
-    puts("Lista ordenada");
+    vaciarLista(&lista1);
+    for(i=0;i<5;i++){
+        listaIFinal(&lista1, arrEnteros+i, sizeof(int));
+    }
+
+    mostrarLista(&lista1, mostrarEntero);    eliminarUltimosN(&lista1, 2);
     mostrarLista(&lista1, mostrarEntero);
+    //ordenarListav2(&lista1, &cmpEnteros);
+    //puts("Lista ordenada");
+    //listaVacia(&lista1)?printf("Lista vacia"):printf("Lista no vacia");
 
     printf("Hello world!\n");
     return 0;

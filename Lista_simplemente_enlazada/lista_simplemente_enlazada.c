@@ -310,7 +310,7 @@ int eliminarPosicionN(tLista* pl, unsigned n){
 
 int eliminarUltimosN(tLista* pl, unsigned n){
     tLista* inicio;
-    tNodo* elim;
+    tLista* elim;
     int contador;
 
     contador=0;
@@ -326,18 +326,19 @@ int eliminarUltimosN(tLista* pl, unsigned n){
         return FRACASO;
     }
 
-    while( (contador--) - n){
-        inicio = & (*inicio)->sig;
+    if(contador==n){
+        vaciarLista(inicio);
+    }
+    else{
+        while( (contador--) - n - 1){
+            inicio = & (*inicio)->sig;
+        }
+        elim = & (*inicio)->sig;
+        vaciarLista(elim);
+        (*inicio)->sig = NULL;
     }
 
-    while(*inicio !=NULL){
-        elim = *inicio;
-        free(elim->dato);
-        free(elim);
-        *inicio = elim->sig;
-    }
     return EXITO;
-
 }
 
 void ordenarListav2(tLista* pl, int (*cmp) (const void* a, const void* b)){

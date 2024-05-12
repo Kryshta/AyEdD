@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # depslib dependency file v1.0
 1713565118 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\main.c
 	"cola_dinamica.h"
@@ -10,3 +11,17 @@
 1713566337 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\cola_dinamica.c
 	"cola_dinamica.h"
 
+=======
+# depslib dependency file v1.0
+1713565118 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\main.c
+	"cola_dinamica.h"
+
+1713566337 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\cola_dinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713566337 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\cola_dinamica\cola_dinamica.c
+	"cola_dinamica.h"
+
+>>>>>>> 138f8c91317c85473a156d87c2b53a17c6040156
