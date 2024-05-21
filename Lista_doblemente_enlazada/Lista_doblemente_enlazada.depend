@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1716265373 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_doblemente_enlazada\main.c
+	"Lista_doblemente_enlazada.h"
+	"lote_de_pruebas.h"
+
+1716263848 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_doblemente_enlazada\lista_doblemente_enlazada.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716265526 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_doblemente_enlazada\lista_doblemente_enlazada.c
+	"Lista_doblemente_enlazada.h"
+
+1716262645 source:f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_doblemente_enlazada\lote_de_pruebas.c
+	"lote_de_pruebas.h"
+
+1716262657 f:\backup\mis documentos\unlam\algoritmos y estructuras de datos\lista_doblemente_enlazada\lote_de_pruebas.h
+	<stdio.h>
+	<stdlib.h>
+
